@@ -1,4 +1,23 @@
 <head>
+    <h3>
+        <p align="center">
+            <a href="https://ucode.world/en/" target="_blank">
+                <img src="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/screens/ucode_it_academy_logo.svg" height="100px">
+            </a>
+        </p>
+    </h3>
+    <h3>
+        <p align="center">ucode connect Track C</p>
+    </h3>
+    <h4>
+        <p align="center"><small><i>ucode connect Track C is a year-long programming bootcamp (September 2023 - May 2014)<br>where students use the C programming language to build your own C library, learn pathfinding algorithms,<br>recode the ls system utility, develop your own shell, and create a real-time communication tool.</i></small>
+        </p><br><br><br>
+        <p align="center">
+            <a href="https://www.linkedin.com/in/inessarepeshko/" target="_blank">
+                <img src="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/screens/skills.png" height="450px">
+            </a>
+        </p>
+    </h4>
 </head>
 
 <body>
