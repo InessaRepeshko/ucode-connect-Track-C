@@ -1,0 +1,725 @@
+https://www.diffchecker.com/text-compare/
+inessarepeshko@MacBook-Air libmx % clang -std=c11 -Wall -Wextra -Werror -Wpedantic main.c ./src/mx*.c
+inessarepeshko@MacBook-Air libmx % ./a.out
+
+mx_printchar:
+Aa! 9'
+__________________________________
+
+mx_print_unicode:
+ʚߏΩ☺
+__________________________________
+
+mx_printstr:
+Hello, World!
+This is a test  'test1234.
+__________________________________
+
+mx_print_strarr:
+apple |test'    0| banana |test'        0| cherry
+
+one
+!two
+!three
+!four
+!five
+
+one
+    | test | '\"12 | TEST!!
+
+
+CASE
+
+
+__________________________________
+
+mx_printint:
+2147483647
+-2147483647
+0
+-2147483648
+-2147483648
+987654321
+1
+-1
+ULLONG_MAX=18446744073709551615
+__________________________________
+
+mx_pow:
+15.625000       15.625000
+27.000000       27.000000
+15.625000       15.625000
+1.000000        1.000000
+-27.000000      -27.000000
+1.000000        1.000000
+0.000000        0.000000
+
+__________________________________
+
+mx_sqrt:
+0       nan
+0       0.000000
+1       1.000000
+0       4.123106
+38569   38569.000000
+16      4       4.000000
+4       2       2.000000
+-10     0       nan
+38      0       6.164414
+0       0       0.000000
+1       1       1.000000
+100     10      10.000000
+
+__________________________________
+
+mx_nbr_to_hex:
+18446744073709551615
+255 = ff
+1024 = 400
+0 =
+-2147483648 = ffffffff80000000
+2147483647 = 7fffffff
+-1 = ffffffffffffffff
++-678 = fffffffffffffd5a
+-+678 = fffffffffffffd5a
+1234567 = 12d687
+-9223372036854775807 = 8000000000000001
+9223372036854775810U = 8000000000000002
+18446744073709551615U = ffffffffffffffff
+-18446744073709551615U = 1
+9223372036854775807 = 7fffffffffffffff
+775807 = bd67f
+176 = b0
+842 = 34a
+158 = 9e
+471 = 1d7
+1000 = 3e8
+140732918889176 = 7ffeefa37ad8
+9223372036854775807 = 7fffffffffffffff
+27 = 1b
+44 = 2c
+
+__________________________________
+
+mx_hex_to_nbr:
+Hex FF to decimal:              255
+Hex 2A to decimal:              42
+Hex 0 to decimal:               0
+Hex ffffffff80000000 to decimal:18446744071562067968
+Hex ffffffffffffffff to decimal:18446744073709551615
+Hex 7fffffff to decimal:        2147483647
+hex="C4"                        dec=196
+hex="FADE"                      dec=64222
+hex="ffffffffffff"              dec=281474976710655
+hex="'!@-FA_de!"                dec=0
+hex="--- -+-59 "                dec=0
+hex="-A"                        dec=0
+hex="8000000000000002"          dec=9223372036854775810
+hex="1000000000000000A"         dec=10
+
+__________________________________
+
+mx_itoa:
+Int = 12345              string = "12345"
+Int = 0                  string = "0"
+Int = -9876              string = "-9876"
+Int = 1000000            string = "1000000"
+Int = -2147483648        string = "-2147483648"
+Int = -2147483647        string = "-2147483647"
+Int = 2147483647         string = "2147483647"
+Int = -1                 string = "-1"
+Int = 1                  string = "1"
+Int = -999999            string = "-999999"
+Int = 987654321          string = "987654321"
+
+__________________________________
+
+mx_for_each:
+12345
+2349876-176547-2147483648-21474836472147483647
+
+__________________________________
+
+mx_binary_search:
+Index of 'date' in the sorted array: 3 (Count: 1)
+Index of 'kiwi' in the sorted array: 6 (Count: 3)
+Index of 'banana' in the sorted array: 1 (Count: 2)
+
+"222"   "Abcd"  "aBc"   "ab"    "az"    "z"
+search_string = "z"
+mx_binary_search = 5
+count = 3
+
+"222"   "Abcd"  "aBc"   "ab"    "az"    "z"
+search_string = "Test"
+mx_binary_search = -1
+count = 0
+
+__________________________________
+
+mx_bubble_sort:
+Initial array: grape banana kiwi apple date cherry fig
+Sorted array: apple banana cherry date fig grape kiwi (Swaps: 11)
+Initial array: z x a b c
+Sorted array: a b c x z (Swaps: 7)
+
+abc     acb     a
+counter=2
+a       abc     acb
+
+abc     xyz     ghi     def
+counter=3
+abc     def     ghi     xyz
+
+456     412     987     123
+counter=4
+123     412     456     987
+
+12      34      56      78
+counter=0
+12      34      56      78
+
+swaps = 3       count = 3
+swaps = 2       count = 1
+swaps = -1      count = 0
+
+__________________________________
+
+mx_quicksort:
+
+mx_quicksort:
+Sorted array: fig date kiwi apple grape cherry banana (Swaps: 3)
+Sorted array: z x a b c (Swaps: 0)
+
+counter = 2
+Sorted array:   Raphael Leonardo        Donatello       Michelangelo
+
+counter = 2
+Sorted array:   DMC     Jessica Dr Brown        Einstein        Biff Tannen     Clint Eastwood
+
+counter = 3
+Sorted array:   aBc     AbCd    aBcD    test1   TEST9   aBCDEFG Abcdefg
+
+counter = 8
+Sorted array:   1       9       12      11      456     123     678     1234    4321    12345
+
+__________________________________
+
+mx_strlen:
+MX_Length of 'Hello, World!' is 13
+STANDART_Length of 'Hello, World!' is 13
+MX_Length of '' is 0
+STANDART_Length of '' is 0
+MX_Length of the string "|test' 0|
+                                   " is 13.
+STANDART_Length of the string "|test'   0|
+                                           " is 13.
+
+__________________________________
+
+mx_swap_char:
+After swapping(1&2): acbd
+Initial:        ONE
+0&1             NOE
+1&2:            NEO
+
+__________________________________
+
+mx_str_reverse:
+abcdef          ->      fedcba
+12345           ->      54321
+game over       ->      revo emag
+|test'  0|
+                ->
+                         |0     'tset|
+
+__________________________________
+
+mx_strdel:
+s1 = 00000
+s2 = (null)
+
+__________________________________
+
+mx_del_strarr:
+arr =   ''      ''      ''      ''      ''      '(null)'
+del_strarr:     '0x0'
+
+__________________________________
+
+mx_get_char_index:
+Index of 'o' in 'Hello, World!':-1
+Index of 'z' in 'abcde':        -1
+Index of '!' in '(null)':       -2
+
+__________________________________
+
+mx_strdup:
+Copied string: 'Hello, World!'
+Copied string (empty): ''
+mx_strdup:      str="What's up, Neo?"   dst="What's up, Neo?"
+strdup:         str="What's up, Neo?"   dst="What's up, Neo?"
+
+mx_strdup:      str="test'!"@#92%^&;
+!!"     dst="test'!"@#92%^&;        !
+!!"                         !
+strdup:         str="test'!"@#92%^&;
+!!"     dst="test'!"@#92%^&;        !
+!!"                         !
+
+__________________________________
+
+mx_strndup:
+Copied string (5 chars): mx = 'Hello'   st = 'Hello'
+Copied string (3 chars): mx = 'abc'     st = 'abc'
+
+3.MX_len1_1 = 4 str = 'AbCd'
+ST_len1_2 = 4   str = 'AbCd'
+
+mx:     str="What's up, Neo?"   dst="What's up" len=9
+st:     str="What's up, Neo?"   dst="What's up" len=9
+
+mx:     str="test'!"@#92%^&;
+!!"     dst="test'!"@#92%^&;!
+!!"     len=22              !
+st:     str="test'!"@#92%^&;
+!!"     dst="test'!"@#92%^&;!
+!!"     len=22              !
+
+
+__________________________________
+
+mx_strcpy:
+0.1Copied string (dst=5 chars): Hello, World!
+0.2Copied string (dst=10 chars): abc
+1.1 Copied string (dst=8 chars): 'TESTtest'     len=8
+1.2 Copied string (dst=8 chars): 'TESTtest'     len=8
+2.1 Copied string (dst=5 chars): 'abc'  len=3
+2.2 Copied string (dst=5 chars): 'abc'  len=3
+3.1 Copied string (dst=0 chars): 'ABCD' len=4
+3.2 Copied string (dst=0 chars): 'ABCD' len=4
+
+__________________________________
+
+mx_strncpy:
+1.1Copied string (5 chars): 'Hello'
+1.2Copied string (5 chars): 'Hello'
+2.1Copied string (5 chars): 'abclo'
+2.2Copied string (5 chars): 'abc'
+3.1Copied string (0 chars): 'est'
+3.2Copied string (0 chars): 'est'
+
+__________________________________
+
+mx_strcmp:
+Comparison result: -1
+Comparison result: 0
+Comparison result: 32
+
+Compare 'Hello' and 'hello': mx_strcmp=-32 and strcmp=-32
+Compare 'Hello' and 'World': mx_strcmp=-15 and strcmp=-15
+
+Compare 'english' and 'eng': mx_strcmp=108 and strcmp=108
+Compare 'english' and 'World': mx_strcmp=14 and strcmp=14
+
+
+__________________________________
+
+mx_strcat:
+1_MX_Concatenated string(len1): 'Hello, World!' len=13
+1_ST_Concatenated string(len1): 'Hello, World!' len=13
+2_MX_Concatenated string(len1): 'abcdef'        len=6
+2_ST_Concatenated string(len1): 'abcdef'        len=6
+3_MX_Concatenated string(len15): 'test  TEST'   len=9
+3_ST_Concatenated string(len15): 'test  TEST'   len=9
+4_MX_Concatenated string(len15): 'TestQueen'    len=9
+4_ST_Concatenated string(len15): 'TestQueen'    len=9
+
+__________________________________
+
+mx_strncmp:
+1_MX_str1='Hey, Neo!',  str2='Hey,Neo!' cmp=-46
+1_ST_str1='Hey, Neo!',  str2='Hey,Neo!' cmp=-46
+2_MX_str1='Hey, Neo!',  str2='Hey, Neo !'       cmp=0
+2_ST_str1='Hey, Neo!',  str2='Hey, Neo !'       cmp=0
+3_MX_str1='hello',      str2='Hello2'   cmp=32
+3_ST_str1='hello',      str2='Hello2'   cmp=32
+3_MX_str1='string',     str2='str'      cmp=105
+3_ST_str1='string',     str2='str'      cmp=105
+4. strncmp=-46
+4. mx_strncmp=-46
+
+__________________________________
+
+mx_strchr:
+Результат 1: mx_strchr='llo, world!'    strchr=llo, world!
+Результат 2: mx_strchr='amming'         strchr='amming'
+Результат 3: mx_strchr='1ming!!'        strchr='1ming!!'
+result 4: strchr=' t456789'     mx_strchr=' t456789'
+result 5: strchr='
+98765678'       mx_strchr='
+98765678'
+result 6: strchr='(null)'       mx_strchr='(null)'
+
+__________________________________
+
+mx_strstr:
+1. Substring found: 'World!'
+2. Substring found: '(null)'
+3. strstr='456789 .'    mx_strstr='456789 .'
+4. strstr='GsjjsdhGFDSGHJFD     9876589'        mx_strstr='GsjjsdhGFDSGHJFD     9876589'
+5. strstr='TEstkGsjjsdhGFDSGHJFD        9876589'        mx_strstr='TEstkGsjjsdhGFDSGHJFD        9876589'
+6. strstr='(null)'      mx_strstr='(null)'
+
+__________________________________
+
+mx_get_substr_index:
+Index of 'World' in 'Hello, World!': 7
+Index of 'lazy dog' in 'The quick brown fox': -1
+Index of 'Don' in 'McDonalds': 2
+Index of 'on' in 'McDonalds': 3
+Index of 'Donatello' in 'McDonalds': -1
+Index of '(null)' in 'McDonalds': -2
+Index of '' in 'McDonalds': 0
+
+__________________________________
+
+mx_count_substr:
+Occurrences of 'Hello' in 'Hello, World! Hello, Universe!': 2
+Occurrences of 'the' in 'The quick brown fox jumps over the lazy dog.': 1
+Occurrences of 'yo' in 'yo, yo, yo Neo': 3
+Occurrences of '' in 'yo, yo, yo Neo': 0
+Occurrences of 'test' in '(null)': -1
+Occurrences of '(null)' in 'yo, yo, yo Neo': -1
+Occurrences of '(null)' in '(null)': -1
+Occurrences of '' in '': 0
+
+__________________________________
+
+mx_count_words:
+Word count in 'Hello, World!' with delim ' ': 2
+Word count in 'The quick brown fox' with delim ' ': 4
+Word count in 'Wake up, Neo! You are the chosen one!' with delim ' ': 8
+Word count in '     Wake  up,   Neo! You are the chosen*one   ! ' with delim ' ': 8
+Word count in '(null)' with delim ' ': -1
+Word count in '  follow  *   the  white rabbit ' with delim '*': 2
+Word count in '  follow  *   the  white rabbit ' with delim ' ': 5
+Word count in '' with delim ' ': 0
+Word count in '   ' with delim ' ': 0
+
+__________________________________
+
+mx_strnew:
+New string of size 10:  str = '0123456789'      len = 10
+New string of size 0:   str = ''                len = 0
+New string of size -5:  Segmentation fault: STR = NULL
+
+__________________________________
+
+mx_strtrim:
+Trimmed string: 'Hello, World!'
+Trimmed string: ''
+Trimmed string: 'TEST1213456789jhgsdb\0      kjcbdsjkc546367875644'
+Trimmed string: ''
+Trimmed string: '(null)'
+Trimmed string: 'My name... is Neo'
+
+__________________________________
+
+mx_del_extra_spaces:
+String with extra spaces removed: 'Hello,'
+String with extra spaces removed: ''
+String with extra spaces removed: 'My name...'
+String with extra spaces removed: ''
+String with extra spaces removed: '(null)'
+
+__________________________________
+
+mx_strsplit:
+1. Split string "Hello,World" (delimiter=','):  i=0 [Hello]     i=1 [World]
+2. Split string "The quick brown fox" (delimiter=' '):  i=0 [The]       i=1 [quick]     i=2 [brown]     i=3 [fox]
+3. Split string "**Good bye,**Mr.*Anderson.****" (delimiter='*'):       i=0 [Good bye,] i=1 [Mr.]       i=2 [Anderson.]
+4. Split string "    Knock, knock,    Neo.    " (delimiter=' '):        i=0 [Knock,]    i=1 [knock,]    i=2 [Neo.]
+5. Split string "    " (delimiter='*'): i=0 [    ]
+6. Split string "    " (delimiter=' '): [(null)]
+7. Split string "(null)" (delimiter=' '):       Arr5 = NULL
+
+__________________________________
+
+mx_strjoin:
+Concatenated string: 'Hello, World!'
+Concatenated string: 'abcdef'
+Concatenated string: 'Hey, Neo'
+Concatenated string: 'Neo'
+Concatenated string: '(null)'
+
+__________________________________
+
+mx_file_to_str:
+File content of 'sample.txt':
+[TEstkGsjjsdhGFDSGHJFD  9876589
+|test'  0|
+           ]
+Failed to read file: 'nonexistent.txt'
+Failed to read file: '(null)'
+
+__________________________________
+
+mx_replace_substr:
+1.1. 'Hello, World! Hello, Universe!'    replace 'Hello' with 'Hi'
+1.2. 'Hi, World! Hi, Universe!'
+2.1. 'The quick brown fox jumps over the lazy dog.'      replace 'the' with 'a'
+2.2. 'The quick brown fox jumps over a lazy dog.'
+3.1. 'TEST'      replace 'testing' with 'brave'
+3.2. 'TEST'
+4.1. 'Testing testing Testing test TEST retesting'       replace 'test' with 'RESULT'
+4.2. 'Testing RESULTing Testing RESULT TEST reRESULTing'
+4.1. 'Ann'       replace 'Anna' with 'Ivanova'
+4.2. 'Ann'
+
+__________________________________
+
+mx_read_line:
+1. Read line from 'file.txt' (buf_size=10, delim='\n'):
+res=8   str="FADE IN:"
+2. Read line from 'file.txt' (buf_size=35, delim='a'):
+res=34  str="
+ON COMPUTER SCREEN
+
+so close it h"
+3. Read line from 'file.txt' (buf_size=1, delim='.'):
+res=15  str="s no boundaries"
+4. Read line from 'file.txt' (buf_size=10, delim='\n'):
+res=0   str=""
+5. Failed to open file: 'nonexistent.txt'
+
+__________________________________
+
+mx_memset:
+1. Initial string: "Hello, World!"
+1. Modified string: "****o, World!"
+
+2. Before memset(): GeeksForGeeks is for programming geeks.
+2. After memset():  GeeksForGeeks........programming geeks.
+__________________________________
+
+mx_memcpy:
+dst=""  src="This is the source string."        n=27    --->    dst="This is the source string."
+dst="Geeks"     src="Quiz"      n=5     --->    dst="Quiz"
+dst="Geeks"     src=""  n=1     --->    dst=""
+dst="Geeks"     src="test"      n=0     --->    dst="Geeks"
+dst="GeeksGeeksGeeks"   src="TEST"      n=2     --->    dst="TEeksGeeksGeeks"
+dst="GeeksGeeksGeeks"   src="TEST"      n=10    --->    dst="TEST"
+
+__________________________________
+
+mx_memccpy:
+1. src = "This is the source string."
+Copied string until 'i' dst = "s is the source string."
+
+2. Initial str = "Stars: Altair, Sun, Vega."
+Char = ':' (found):     "Stars:"
+Char = ' ' (found):     "Stars: "
+Char = ',' (found):     "Stars: Altair,"
+Char = '.' (found):     "Stars: Altair, Sun, Vega."
+Char = '!' (absent):    "Stars: Altair, Sun, Vega.@"
+
+3. Star names with distances:
+"Arcturus : 37"
+"Vega : 25"
+"Capella : 43"
+"Rigel : 860"
+"Procyon : 11"
+
+Separate star names from distances (ly):
+Arcturus Vega Capella Rigel Procyon
+
+__________________________________
+
+mx_memcmp:
+str1 = "Hello, World!"  str2 = "Hello,  Universe!"
+Comparison result for n=7: 23
+Comparison result for n=16: 23
+Comparison result for n=5: 0
+Comparison result for n=10: -23
+abc precedes (-) abd in lexicographical order =
+-1
+abd follows (+) abc in lexicographical order =
+1
+abc compares equal (0) abc in lexicographical order =
+0
+
+__________________________________
+
+mx_memchr:
+1. Initial str = "This is a sample string."
+Found 'a' at position 8: "a sample string."
+2. Initial str = "ABCDEFG       @#$%^&*()"
+character 'D'(68) found at position 3: "DEFG    @#$%^&*()"
+character 'd'(100) not found
+character '!'(33) not found
+character ''(0) not found
+character '     '(9) found at position 7: "     @#$%^&*()"
+character ''(0) not found
+3. Initial str = ""
+character 'D'(68) not found
+character '!'(33) not found
+character ''(0) not found
+character ''(0) not found
+
+__________________________________
+
+mx_memrchr:
+0. Initial str = "Trinity"
+Found 'i' at position 4, n=7: "ity"
+Found 'M' at position -6157612064, n=7: "(null)"
+Found 'i' at position -6157612064, n=7: "(null)"
+1. Initial str = "This is a sample string."
+Found 's' at position 17: "string."
+2. Initial str = "ABCDEFG       @#$%^&*()"
+character 'D'(68) found at position 3: "DEFG    @#$%^&*()"
+character 'd'(100) not found
+character '!'(33) not found
+character ''(0) found at position 17: ""
+character '     '(9) found at position 7: "     @#$%^&*()"
+character ''(0) found at position 17: ""
+3. Initial str = ""
+character 'D'(68) not found
+character '!'(33) not found
+character ''(0) not found
+character ''(0) not found
+
+__________________________________
+
+mx_memmem:
+Initial string = "This is a big string for testing."
+Found 'big string' at position 10:      "big string for testing."
+1. Substring found: 'World!'
+2. Substring found: '(null)'
+3. memmem='456789 .'    mx_memmem='456789 .'
+4. position = 11        memmem='JHGCKGJHCQWERgvjhgj~'   mx_memmem='JHGCKGJHCQWERgvjhgj~'
+5. memmem='(null)'      mx_memmem='(null)'
+6. memmem='(null)'      mx_memmem='(null)'
+7. memmem='(null)'      mx_memmem='(null)'
+
+__________________________________
+
+mx_memmove:
+Initial str = "This is a sample string."        New string: "This is a sample string."
+dst=""  src="This is the source string."        n=27    --->    dst="This is the source string."
+dst="Geeks"     src="Quiz"      n=5     --->    dst="Quiz"
+dst="Geeks"     src=""  n=1     --->    dst=""
+dst="Geeks"     src="test"      n=0     --->    dst="Geeks"
+dst="GeeksGeeksGeeks"   src="TEST"      n=2     --->    dst="TEeksGeeksGeeks"
+dst="GeeksGeeksGeeks"   src="TEST"      n=10    --->    dst="TEST"
+
+__________________________________
+
+mx_realloc:
+1. size of arr = 8      arr = 01234
+Reallocated array with size 10: "0123400000"
+2.  size of arr = 8     arr = 01234
+Reallocated array with size 0: "0000000000"
+3. size of arr = 0      arr = NULL
+Reallocated array with size 10: "0000000000"
+4.  size of arr = 12    arr = 0123456789
+Reallocated array with size 5: "01234"
+
+__________________________________
+
+mx_create_node:
+Created node with value: 42
+There is a list of nodes:0x1 0x2 0x3
+__________________________________
+
+mx_push_front:
+2Neo!
+1Hey!
+
+__________________________________
+
+mx_push_back:
+The list of data BEFORE pushing back:
+1Ay!
+2Ahoy!
+3Hey!
+4Hey, Neo!
+The list of data AFTER pushing back:
+1Ay!
+2Ahoy!
+3Hey!
+4Hey, Neo!
+5You are the chosen one!
+
+__________________________________
+
+mx_pop_front:
+1. List size BEFORE popping front: 3
+List size AFTER popping front: 2
+
+2. List size BEFORE popping front: 5
+1Ay!
+2Ahoy!
+3Hey!
+4Hey, Neo!
+5You are the chosen one!
+List size AFTER popping front: 4
+2Ahoy!
+3Hey!
+4Hey, Neo!
+5You are the chosen one!
+
+__________________________________
+
+mx_pop_back:
+1. List size BEFORE popping back: 3
+List size AFTER popping back: 2
+
+2. List size BEFORE popping back: 5
+1Ay!
+2Ahoy!
+3Hey!
+4Hey, Neo!
+5You are the chosen one!
+List size AFTER popping back: 4
+1Ay!
+2Ahoy!
+3Hey!
+4Hey, Neo!
+
+__________________________________
+
+mx_list_size:
+1. List size: 3
+
+2. Initial List size: 1
+First List size: 5
+1Ay!
+2Ahoy!
+3Hey!
+4Hey, Neo!
+5You are the chosen one!
+Second List size: 4
+2Ahoy!
+3Hey!
+4Hey, Neo!
+5You are the chosen one!
+
+__________________________________
+
+mx_sort_list:
+1. Sorted list values:  1       2       3
+
+2. Sorted list values:  0       1       2       3       3       3       4       7
+
+__________________________________
+
+Linked list tests:
+1. Size of list: 4
+Data:   '0'     '1'     '2'     '3'
+
+2. Size of list: 0
+Data:
+
+__________________________________
+inessarepeshko@MacBook-Air libmx %

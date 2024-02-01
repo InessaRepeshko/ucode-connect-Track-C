@@ -1,0 +1,291 @@
+----------------------------------------
+Checking gitlab.ucode.world:connect-khpi/connect-pathfinder/mkloz-5.git
+----------------------------------------
+Checking repository structure for basic
+Repository structure OK
+Running tests for basic for User
+Running tests for basic for Test
+----------------------------------------
+Comparing outputs
+Test case 0 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 1 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 2 Ok
+You get 8 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 3 Ok
+You get 14 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 4 Ok
+You get 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 5 Failed
+
+Description: Test with random lengths between pairs of vertices.
+
+user output vs test output
+6a7,11
+> Path: M -> N
+> Route: M -> Q -> N
+> Distance: 7 + 1 = 8
+> ========================================
+> ========================================
+23,24c28,29
+< Route: N -> O
+< Distance: 8
+---
+> Route: N -> Q -> O
+> Distance: 1 + 4 = 5
+28,29c33,34
+< Route: N -> P
+< Distance: 5
+---
+> Route: N -> Q -> P
+> Distance: 1 + 3 = 4
+
+You lost 14 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 6 Failed
+
+Description: Test with random lengths between pairs of vertices.
+
+user output vs test output
+8,14c8,9
+< Route: J -> L
+< Distance: 3
+< ========================================
+< ========================================
+< Path: J -> M
+< Route: J -> L -> M
+< Distance: 3 + 1 = 4
+---
+> Route: J -> P -> L
+> Distance: 1 + 1 = 2
+18,19c13,14
+< Route: J -> M
+< Distance: 4
+---
+> Route: J -> P -> L -> M
+> Distance: 1 + 1 + 1 = 3
+23,24c18,19
+< Route: J -> K -> N
+< Distance: 4 + 2 = 6
+---
+> Route: J -> P -> N
+> Distance: 1 + 2 = 3
+41a37,41
+> Path: K -> L
+> Route: K -> M -> L
+> Distance: 2 + 1 = 3
+> ========================================
+> ========================================
+62a63,67
+> Route: K -> M -> L -> P
+> Distance: 2 + 1 + 1 = 4
+> ========================================
+> ========================================
+> Path: K -> P
+73,74c78,79
+< Route: L -> N
+< Distance: 4
+---
+> Route: L -> P -> N
+> Distance: 1 + 2 = 3
+81a87,91
+> Path: L -> O
+> Route: L -> M -> K -> O
+> Distance: 1 + 2 + 1 = 4
+> ========================================
+> ========================================
+91a102,106
+> Path: M -> N
+> Route: M -> L -> P -> N
+> Distance: 1 + 1 + 2 = 4
+> ========================================
+> ========================================
+127a143,147
+> Route: O -> K -> M -> L -> P
+> Distance: 1 + 2 + 1 + 1 = 5
+> ========================================
+> ========================================
+> Path: O -> P
+
+You lost 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 7 Failed
+
+Description: Test with random lengths between pairs of vertices.
+
+user output vs test output
+11a12,16
+> Path: J -> L
+> Route: J -> N -> L
+> Distance: 3 + 2 = 5
+> ========================================
+> ========================================
+
+You lost 15 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 8 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 9 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 10 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 11 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 12 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 13 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 14 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 15 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 16 Failed
+
+Description: Test with invalid lines.
+
+user output vs test output
+1,50c1
+< ========================================
+< Path: C -> D
+< Route: C -> D
+< Distance: 8
+< ========================================
+< ========================================
+< Path: C -> E
+< Route: C -> E
+< Distance: 8
+< ========================================
+< ========================================
+< Path: C -> F
+< Route: C -> F
+< Distance: 8
+< ========================================
+< ========================================
+< Path: C -> G
+< Route: C -> G
+< Distance: 8
+< ========================================
+< ========================================
+< Path: D -> E
+< Route: D -> E
+< Distance: 8
+< ========================================
+< ========================================
+< Path: D -> F
+< Route: D -> F
+< Distance: 8
+< ========================================
+< ========================================
+< Path: D -> G
+< Route: D -> G
+< Distance: 8
+< ========================================
+< ========================================
+< Path: E -> F
+< Route: E -> F
+< Distance: 8
+< ========================================
+< ========================================
+< Path: E -> G
+< Route: E -> G
+< Distance: 8
+< ========================================
+< ========================================
+< Path: F -> G
+< Route: F -> G
+< Distance: 8
+< ========================================
+---
+> error: line 6 is not valid
+
+You lost 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 17 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 18 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 19 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 20 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 21 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 22 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 23 Ok
+You get 1 points
+----------------------------------------
+----------------------------------------
+Comparing outputs
+Test case 24 Ok
+You get 1 points
+----------------------------------------
+Total 55 points for basic [ FAIL ]
+----------------------------------------
+

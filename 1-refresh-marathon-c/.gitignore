@@ -3,4 +3,3 @@
 .idea
 .git
 !mx_*.c$
-test
