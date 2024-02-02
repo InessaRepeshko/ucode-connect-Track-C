@@ -24,7 +24,7 @@
             <th>PDFs</th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/1-refresh-marathon-c" target="_blank">Refresh Marathon C</a></th>
+            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/refresh-marathon-c" target="_blank">Refresh Marathon C</a></th>
             <th>The challenge to refresh all the knowledge gained at Marathon C.</th>
             <th>100</th>
             <th>
@@ -33,31 +33,31 @@
             </th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/2-libmx" target="_blank">Libmx</a></th>
+            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/libmx" target="_blank">Libmx</a></th>
             <th>Create your own C library.</th>
             <th>99</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/libmx.pdf" target="_blank">libmx.pdf</a></th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/3-pathfinder" target="_blank">Pathfinder</a></th>
+            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/pathfinder" target="_blank">Pathfinder</a></th>
             <th>Learn pathfinding algorithms.</th>
             <th>100</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/pathfinder.pdf" target="_blank">pathfinder.pdf</a></th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/4-uls" target="_blank">uls</a></th>
+            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/uls" target="_blank">uls</a></th>
             <th>Recode the system's utility ls.</th>
             <th>125</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/uls.pdf" target="_blank">uls.pdf</a></th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/5-ush" target="_blank">ush</a></th>
+            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/ush" target="_blank">ush</a></th>
             <th>Develop your own shell.</th>
             <th>-</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/ush.pdf" target="_blank">ush.pdf</a></th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/6-uchat" target="_blank">uchat</a></th>
+            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/uchat" target="_blank">uchat</a></th>
             <th>Create a real-time communication tool using creativity and the whole cycle of Challenge Based Learning framework.</th>
             <th>-</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/uchat.pdf" target="_blank">uchat.pdf</a></th>
