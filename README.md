@@ -52,13 +52,13 @@
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/uls.pdf" target="_blank">uls.pdf</a></th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/ush" target="_blank">ush</a></th>
+            <th>[Deprecated] <a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/ush" target="_blank">ush</a></th>
             <th>Develop your own shell.</th>
             <th>-</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/ush.pdf" target="_blank">ush.pdf</a></th>
         </tr>
         <tr>
-            <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/uchat" target="_blank">uchat</a></th>
+            <th><a href="https://github.com/Strawberry-Team/ucode-connect-uchat" target="_blank">uchat</a></th>
             <th>Create a real-time communication tool using creativity and the whole cycle of Challenge Based Learning framework.</th>
             <th>-</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/uchat.pdf" target="_blank">uchat.pdf</a></th>
