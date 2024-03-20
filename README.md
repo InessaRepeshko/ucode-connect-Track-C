@@ -52,7 +52,7 @@
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/uls.pdf" target="_blank">uls.pdf</a></th>
         </tr>
         <tr>
-            <th>[Deprecated] <a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/tree/main/ush" target="_blank">ush</a></th>
+            <th>[Deprecated] ush</a></th>
             <th>Develop your own shell.</th>
             <th>-</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/ush.pdf" target="_blank">ush.pdf</a></th>
