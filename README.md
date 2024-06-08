@@ -10,7 +10,7 @@
         <p align="center">ucode connect Track C</p>
     </h3>
     <h4>
-        <p align="center"><small><i>ucode connect Track C is a year-long programming bootcamp (September 2023 - May 2014)<br>where students use the C programming language to build your own C library, learn pathfinding algorithms,<br>recode the ls system utility, develop your own shell, and create a real-time communication tool.</i></small>
+        <p align="center"><small><i>ucode connect Track C is a year-long programming bootcamp (September 2023 - May 2024)<br>where students use the C programming language to build your own C library, learn pathfinding algorithms,<br>recode the ls system utility, develop your own shell, and create a real-time communication tool.</i></small>
         </p>
     </h4>
 </head>
