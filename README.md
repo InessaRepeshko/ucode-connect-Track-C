@@ -60,7 +60,7 @@
         <tr>
             <th><a href="https://github.com/Strawberry-Team/ucode-connect-uchat" target="_blank">uchat</a></th>
             <th>Create a real-time communication tool using creativity and the whole cycle of Challenge Based Learning framework.</th>
-            <th>-</th>
+            <th>187</th>
             <th><a href="https://github.com/InessaRepeshko/ucode-connect-Track-C/blob/main/documents/uchat.pdf" target="_blank">uchat.pdf</a></th>
         </tr>
     </table>
